@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+h1 {
+    font-size: 15px;
+    font-family: futura;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+h2 {
+    font-size: 10px;
+    font-family: futura;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-style: italic;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:beige;
+    height: 350px;
+    width: 300px;
+    border: solid black 2px;
+}
+.all-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+.input {
+    font-size: 15px;
+    border: solid black 0px;
+    border-bottom: solid grey 1px ;
+}
+.forgot {
+    
+}
+.sign-in-button {
+    background-color: rgb(82,150,213);
+    color: white;
+    font-family: futura;
+    font-size: 10px;
+    height: 30px;
+}
